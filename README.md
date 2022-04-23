@@ -12,6 +12,8 @@ The code produced by Rust heavily makes use of the MMX set, as you can see down 
 
 ![2022-04-24_011503](https://user-images.githubusercontent.com/4256708/164949367-02cce677-968e-4012-b3b0-ad4f4360bd83.png)
 
+If your CPU support AVX2 or AVX512 - or other - consider using the appropriate `rustc` flag or change the configuration of Cargo to makes use of such sets.
+
 ### Features:
 ✅ Mandelbrot Fractal <br>
 ✅ SDL2 (you need SDL2 to run the project) <br>
