@@ -1,5 +1,5 @@
 [package]
-name = "rust_internals_src"
+name = "mandelbrot_explorer"
 version = "0.1.0"
 edition = "2021"
 

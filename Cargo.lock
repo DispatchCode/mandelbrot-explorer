@@ -63,6 +63,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ec647867e2bf0772e28c8bcde4f0d19a9216916e890543b5a03ed8ef27b8f259"
 
 [[package]]
+name = "mandelbrot_explorer"
+version = "0.1.0"
+dependencies = [
+ "num-complex",
+ "png",
+ "sdl2",
+]
+
+[[package]]
 name = "miniz_oxide"
 version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -99,15 +108,6 @@ dependencies = [
  "crc32fast",
  "deflate",
  "miniz_oxide",
-]
-
-[[package]]
-name = "rust_internals_src"
-version = "0.1.0"
-dependencies = [
- "num-complex",
- "png",
- "sdl2",
 ]
 
 [[package]]
